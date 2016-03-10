@@ -28,13 +28,14 @@
             <string>vspeed = 9;                // Set the vertical speed
 alarm[0] = room_speed * .3; // Set shooting timer to a second
 hp = 1;                    // Set the “health” of the enemy
-patharray[0] = pth1;
-patharray[1] = pth2;
-patharray[2] = pth3;
-patharray[3] = pth4;
+path_start(Two_Bars_R,14,2,0)
+//patharray[0] = pth1;
+//patharray[1] = pth2;
+//patharray[2] = pth3;
+//patharray[3] = pth4;
 
-followpath = patharray[ choose( 0 , 1 , 2, 3) ]
-path_start(Two_Bars_L,14,2,0)
+//followpath = patharray[ choose( 0 , 1 , 2, 3) ]
+path_start(Two_Bars_R,14,2,0)
 </string>
           </argument>
         </arguments>

@@ -23,6 +23,8 @@
     <path>paths\pth2</path>
     <path>paths\pth3</path>
     <path>paths\pth4</path>
+    <path>paths\Two_Bars_L</path>
+    <path>paths\Two_Bars_R</path>
   </paths>
   <scripts name="scripts">
     <scripts name="Starfield">
@@ -44,7 +46,11 @@
     <object>objects\objExplosion</object>
     <object>objects\objPlayer</object>
     <object>objects\objPlayerBullet</object>
+    <object>objects\objEnemy2</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\tl_enemies</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\rmLevel1</room>
     <room>rooms\Game</room>
